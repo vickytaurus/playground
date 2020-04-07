@@ -1,0 +1,5 @@
+UserController is a controller class that provides two services:
+1. Creation of a user.
+2. Get the tours of a user.
+
+Start refactoring from the UserController class.
