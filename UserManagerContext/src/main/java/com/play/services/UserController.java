@@ -29,7 +29,7 @@ public class UserController {
 		return "SUCCESS";
 	}
 
-	public List<Tour> getTripsByUser(User user) throws UserNotLoggedInException {
+	public List<Tour> getToursByUser(User user) throws UserNotLoggedInException {
 		List<Tour> tourList = new ArrayList<Tour>();
 		boolean isFriend = false;
 		User loggedUser = store.getLoggedUser();
